@@ -1,6 +1,6 @@
 # Step-by-Step Approach to Writing Task 2 (Using Simon's Method)
 
-## Task
+## Task 2
 
 ```txt
 Some people prefer to live in a house，while others feel that there are more advantages to living in an apartment.
