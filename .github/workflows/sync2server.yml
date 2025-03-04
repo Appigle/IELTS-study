@@ -22,4 +22,4 @@ jobs:
 
     - name: Sync Files to Server
       run: |
-        rsync -avz --delete --exclude '.git' ./ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/root/tmp
+        rsync -avz --delete --progress --exclude '.git' --chmod=ugo=rwX ./ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/root/tmp
