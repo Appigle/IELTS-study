@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Evolution Timeline of Coding IDE (up to 2025)","children":[{"content":"1970s&#x2013;1980s: Early IDE Beginnings","children":[{"content":"1975: Emacs","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"1983: Turbo Pascal","children":[],"payload":{"tag":"li","lines":"5,7"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"1990s: GUI-based IDEs &amp; Accessibility","children":[{"content":"1991: Visual Basic","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"1995: Borland Delphi","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"1996: Visual Studio 1.0","children":[],"payload":{"tag":"li","lines":"11,13"}}],"payload":{"tag":"h2","lines":"7,8"}},{"content":"2000s: Open-source &amp; Cross-platform IDEs","children":[{"content":"2001: Eclipse IDE","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"2001: IntelliJ IDEA","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"2003: NetBeans","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"2005: Visual Studio 2005 (Team System)","children":[],"payload":{"tag":"li","lines":"18,20"}}],"payload":{"tag":"h2","lines":"13,14"}},{"content":"2010s: Cloud, Lightweight Editors, Web IDEs","children":[{"content":"2012: Sublime Text 2","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"2015: Visual Studio Code","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"2017: Cloud-based IDEs","children":[{"content":"AWS Cloud9","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Gitpod","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"GitHub Codespaces","children":[],"payload":{"tag":"li","lines":"27,28"}}],"payload":{"tag":"li","lines":"24,28"}},{"content":"2019: JetBrains Fleet (lighter architectures)","children":[],"payload":{"tag":"li","lines":"28,30"}}],"payload":{"tag":"h2","lines":"20,21"}},{"content":"2020&#x2013;2025: AI-driven IDEs &amp; Intelligent Assistants","children":[{"content":"2021: GitHub Copilot","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"2022: JetBrains AI Assistant","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"2023: VS Code &amp; Visual Studio AI integration","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"2024: Cloud collaboration features","children":[{"content":"Remote pair programming","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"Real-time collaboration","children":[],"payload":{"tag":"li","lines":"37,38"}}],"payload":{"tag":"li","lines":"35,38"}},{"content":"2025: Advanced AI Models Integration","children":[{"content":"Project analysis","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"Predictive bug detection","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"Code synthesis","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"Conversational AI coding assistants","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"Deep-learning debugging &amp; optimization","children":[],"payload":{"tag":"li","lines":"43,45"}}],"payload":{"tag":"li","lines":"38,45"}}],"payload":{"tag":"h2","lines":"30,31"}},{"content":"2025 Key Trends","children":[{"content":"AI &amp; Machine Learning","children":[{"content":"Code generation","children":[],"payload":{"tag":"li","lines":"48,49"}},{"content":"Automated debugging","children":[],"payload":{"tag":"li","lines":"49,50"}},{"content":"Intelligent refactoring","children":[],"payload":{"tag":"li","lines":"50,51"}}],"payload":{"tag":"li","lines":"47,51"}},{"content":"Cloud Integration","children":[{"content":"Hybrid cloud-based IDEs","children":[],"payload":{"tag":"li","lines":"52,53"}}],"payload":{"tag":"li","lines":"51,53"}},{"content":"Collaborative Development","children":[{"content":"Real-time collaboration","children":[],"payload":{"tag":"li","lines":"54,55"}},{"content":"Pair programming","children":[],"payload":{"tag":"li","lines":"55,56"}}],"payload":{"tag":"li","lines":"53,56"}},{"content":"Performance &amp; Lightweight Architectures","children":[],"payload":{"tag":"li","lines":"56,57"}},{"content":"Security &amp; Privacy","children":[{"content":"Vulnerability scanning","children":[],"payload":{"tag":"li","lines":"58,59"}},{"content":"Automated dependency management","children":[],"payload":{"tag":"li","lines":"59,60"}},{"content":"Compliance checks","children":[],"payload":{"tag":"li","lines":"60,61"}}],"payload":{"tag":"li","lines":"57,61"}}],"payload":{"tag":"h2","lines":"45,46"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>
